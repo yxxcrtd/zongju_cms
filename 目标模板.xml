@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "http://dtd.nlm.nih.gov/publishing/2.3/journalpublishing.dtd">
+<article article-type="research-article" dtd-version="2.3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta"></journal-id>
+<journal-id journal-id-type="publisher-id">Editorial Office of Journal of the Chinese Ceramic Society</journal-id>
+<journal-title>Journal of the Chinese Ceramic Society</journal-title>
+<issn pub-type="epub">0454-5648</issn>
+<issn pub-type="ppub">0454-5648</issn>
+<publisher>
+<publisher-name>Editorial Office of Journal of the Chinese Ceramic Society</publisher-name>
+<publisher-loc>Nr. 11, Sanlihe Road, Beijing, 100831, P. R. China</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id"></article-id>
+<article-id pub-id-type="doi">{DOI}</article-id>
+<article-categories>
+<subj-group>
+<subject>Chemical Engineering</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>{文章标题}</article-title>
+</title-group>
+<contrib-group>
+{作者信息}
+</contrib-group>
+{单位信息}
+<author-notes>
+</author-notes>
+<pub-date pub-type="ppub">
+<month>{月}</month>
+<year>{年}</year>
+</pub-date>
+<volume>{卷号}</volume>
+<issue>{期号}</issue>
+<fpage>{首页码}</fpage>
+<lpage>{尾页码}</lpage>
+<permissions>
+<copyright-statement>&#x00A9; Editorial Office of Journal of the Chinese Ceramic Society</copyright-statement>
+<copyright-year>{版权年}</copyright-year>
+</permissions>
+<abstract>
+<p>{简介}</p>
+</abstract>
+<kwd-group>
+{关键字}
+</kwd-group>
+</article-meta>
+</front>
+</article>
+

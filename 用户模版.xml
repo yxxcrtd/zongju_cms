@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<name>红楼梦</name><!--资源名称-->
+		<author>曹雪芹</author><!--作者-->
+		<ISBN>5464-4524-452</ISBN><!--ISBN号-->
+		<publishDate>2014-09-22</publishDate><!--出版时间（文本格式）-->
+		<price>55.8</price><!--价格-->
+		<publisher>北大出版社</publisher><!--出版社-->
+		<edition>五</edition><!--版次-->
+		<pages>155</pages><!--页数-->
+		<frame>精装</frame><!--装帧-->
+		<format>16</format><!--开本-->
+		<sheet>20</sheet><!--印张-->
+		<royalty>20</royalty><!--版税率-->
+		<originalName>951-959.pdf</originalName><!--上传文件的原始名称-->
+		<systemName>20140922145442250.pdf</systemName><!--上传文件的系统存放名称-->
+	</book>
+</books>

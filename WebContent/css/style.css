@@ -1,0 +1,335 @@
+/* Copyright 2014 */
+/* Author: YangXinXin */
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	color: #666666;
+	background-color: #FFFFFF;
+}
+
+/* 超链接样式 */
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+/* 红色粗体 */
+.red {
+	color: #FF0000;
+	font-weight: bold;
+}
+#tips {
+	color: #FF0000;
+	padding-left: 20px;
+}
+
+div#search {
+	text-align: right;
+}
+
+/* 蓝体字体 */
+.blue {
+	color: #0000FF;
+}
+
+/* 行.空隙 */
+.gap_row {
+	clear: both;
+	height: 10px;
+}
+/* 列.空隙 */
+.gap_column {
+	float: left; /* 代替width: 1000px; */
+	width: 10px;
+}
+
+/* 后台管理DIV中的所有内容 */
+div#content {
+	padding: 8px 8px 0 15px;
+}
+
+/* 新建样式 */
+div#new {
+	line-height: 24px;
+	padding-bottom: 4px;
+}
+
+div#header {
+	color: #FFFFFF;
+	line-height: 26px;
+	background-color: #307ECC;
+	margin-bottom: 5px;
+}
+
+/* 前台页面样式 */
+div#banner {
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+div#container {
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+	background: #FAFAFA;
+	min-height: 500px;
+	padding-bottom: 10px;
+}
+div#main_left {
+	float: left;
+	width: 280px;
+	padding: 10px 0;
+	background-color: #EEE;
+}
+div#main_right {
+	float: left;
+	width: 700px;
+}
+div#footer {
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	padding: 20px 0;
+	background: #EEE;
+}
+/* 导航菜单的整体样式 */
+div#menu {
+	position: relative;
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	white-space: nowrap; /* 控制IE6下不自动换行 */
+	padding-bottom: 10px;
+}
+div#menu ul {
+	position: relative;
+	background-color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	list-style: none outside none;
+}
+div#menu li {
+	float: left;
+	padding-right: 2px;
+}
+div#menu ul li a:link, div#menu ul li a:visited {
+	display: inline-block; /* IE6下块有超连接 */
+	font-weight: bold;
+	text-align: center;
+	padding: 0 25px;
+	*padding: 7px 25px 3px 25px;
+	text-decoration: none;
+}
+div#menu ul li a:hover, div#menu ul li a.active {
+	color: #FFFFFF;
+	background-color: #D0602E;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 超链接按钮样式 */
+.button {
+	font-size: 12px;
+	padding: 4px 10px 8px 28px;
+	color: #FFFFFF;
+	/* 以下是兼顾按钮的样式 */
+	border: 0;
+	cursor: pointer;
+}
+/* 文本输入框的样式 */
+.input {
+	width: 300px;
+	color: #797979;
+	border: 1px solid #B9BDC1;
+	font-family: Arial, Verdana;
+	padding: 5px;
+	font-size: 12px;
+}
+/* 下拉框样式 */
+.selectStyle {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #797979;
+    height: 28px;
+    line-height: 18px;
+    padding: 5px;
+    position: relative;
+    top: 2px;
+    width: 310px;
+    border: 1px solid #B9BDC1;
+}
+
+.label, div#operation {
+	padding: 15px 0 2px 0;
+}
+
+/* 按钮前的小图标 */
+.icon_add {
+	background: url("../images/icon_add.png") no-repeat 9px 5px #2283C5;
+}
+.icon_minus {
+	background: url("../images/icon_minus.png") no-repeat 9px 5px #2283C5;
+}
+.icon_query {
+	background: url("../images/icon_query.png") no-repeat 9px 5px #2283C5;
+}
+.icon_save {
+	background: url("../images/icon_save.png") no-repeat 9px 5px #2283C5;
+}
+.icon_return {
+	background: url("../images/icon_return.png") no-repeat 9px 5px #2283C5;
+}
+.icon_flag {
+	padding: 4px 10px 4px 28px;
+	background: url("../images/icon_flag.png") no-repeat 9px 5px #2283C5;
+}
+.icon_add, .icon_minus, .icon_query, .icon_save, .icon_return {
+	padding-bottom: 3px;
+}
+
+/* 表格样式 */
+table {
+	text-align: center;
+/* 	border: 1px solid #E9E9E9; */
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+/* 表格头部的背景样式 */
+#thead td {
+	background: linear-gradient(to bottom, #F8F8F8, #ECECEC) repeat-x scroll 0 0 #F3F3F3;
+	font-weight: bold;
+	height: 30px;
+}
+/* 设置表格中tr的高度 */
+table tr {
+	height: 26px;
+}
+/* 设置表格中td的边框 */
+table td {
+	border: 1px solid #DDDDDD;
+}
+/* 设置表格中所有a标签的超连接样式 */
+table a {
+	color: #0000FF;
+	text-decoration: underline;
+}
+/* 设置表格中数据项居左显示 */
+table .left {
+	text-align: left;
+	padding-left: 20px;
+}
+/* 定制的td边框为0 */
+table .left1 {
+	border: 0;
+	text-align: left;
+	padding-left: 20px;
+}
+/* 设置表格中数据项居右显示 */
+table .right {
+	text-align: right;
+	padding-right: 20px;
+}
+
+/* 分页样式 */
+div#pageNav {
+	font-size: 13px;
+}
+/* 分页DIV中的超连接a样式 */
+div#pageNav a {
+	display: inline-block;
+	width: 19px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	vertical-align: middle;
+	color: #58595B;
+	background-color: #F0F0F0;
+}
+/* 鼠标移上分页时的样式  */
+div#pageNav a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+/* 当前激活页的样式  */
+div#pageNav a.active {
+	color: #FFFFFF;
+	background-color: #2283C5;
+}
+/* 两边尖头的样式 */
+div#pageNav a.arrow {
+	font-family: SimSun, Arial;
+	font-weight: bold;
+}
+
+.classList {
+	overflow: hidden;
+	width: 400px;
+	margin: 20px 0 0 20px;
+	float: left;
+	border-bottom: none;
+}
+.img {
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.nowBuy, .nowBuy2 {
+	padding: 3px 15px;
+}
+.nowBuy1 {
+	padding: 0 8px;
+}
+.nowBuy, .nowBuy1, .nowBuy2 {
+	background: #EE8F62;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/* 列表标题 */
+.list_title {
+	font-size: 15px;
+	margin: 12px;
+	padding: 12px;
+	font-weight: bold;
+}
+
+/* 栏目列表 */
+.li_title {
+	list-style: none outside none;
+	padding: 10px 0 0 40px;
+}
+
+.content_title {
+	list-style: none outside none;
+	padding: 3px 0 0 25px;
+}
+.content_a {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+#content_main {
+	border: 1px solid #EEEEEE;
+}
+
+#content_main_title {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+/* 内容详情页面的内容 */
+#detail_content {
+	padding: 15px 0 25px 25px;
+}
